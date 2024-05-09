@@ -11,7 +11,8 @@ import SwiftUI
 struct SKRSkeletonAppIOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CameraButtonView(cameraEnabled: false, useBackCamera: false)
         }
     }
 }
+ 

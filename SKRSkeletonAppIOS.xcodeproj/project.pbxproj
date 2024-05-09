@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C47D0AB22BED501A00DF256D /* RawSignData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47D0AB12BED501A00DF256D /* RawSignData.swift */; };
 		C4FBC0C32BE91ECA00F617E5 /* SKRSkeletonAppIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FBC0C22BE91ECA00F617E5 /* SKRSkeletonAppIOSApp.swift */; };
 		C4FBC0C52BE91ECA00F617E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FBC0C42BE91ECA00F617E5 /* ContentView.swift */; };
 		C4FBC0C72BE91ECC00F617E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4FBC0C62BE91ECC00F617E5 /* Assets.xcassets */; };
@@ -14,6 +15,9 @@
 		C4FBC0D42BE91ECC00F617E5 /* SKRSkeletonAppIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FBC0D32BE91ECC00F617E5 /* SKRSkeletonAppIOSTests.swift */; };
 		C4FBC0DE2BE91ECC00F617E5 /* SKRSkeletonAppIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FBC0DD2BE91ECC00F617E5 /* SKRSkeletonAppIOSUITests.swift */; };
 		C4FBC0E02BE91ECC00F617E5 /* SKRSkeletonAppIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FBC0DF2BE91ECC00F617E5 /* SKRSkeletonAppIOSUITestsLaunchTests.swift */; };
+		C4FBC0F12BE92C0600F617E5 /* CameraDataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FBC0F02BE92C0600F617E5 /* CameraDataObject.swift */; };
+		C4FBC0F32BE9320D00F617E5 /* SLRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FBC0F22BE9320D00F617E5 /* SLRView.swift */; };
+		C4FBC0F52BE9352E00F617E5 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FBC0F42BE9352E00F617E5 /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C47D0AB12BED501A00DF256D /* RawSignData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawSignData.swift; sourceTree = "<group>"; };
 		C4FBC0BF2BE91ECA00F617E5 /* SKRSkeletonAppIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKRSkeletonAppIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FBC0C22BE91ECA00F617E5 /* SKRSkeletonAppIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKRSkeletonAppIOSApp.swift; sourceTree = "<group>"; };
-		C4FBC0C42BE91ECA00F617E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4FBC0C42BE91ECA00F617E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = SKRSkeletonAppIOS/ContentView.swift; sourceTree = SOURCE_ROOT; };
 		C4FBC0C62BE91ECC00F617E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4FBC0C92BE91ECC00F617E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4FBC0CF2BE91ECC00F617E5 /* SKRSkeletonAppIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKRSkeletonAppIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,9 @@
 		C4FBC0D92BE91ECC00F617E5 /* SKRSkeletonAppIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKRSkeletonAppIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FBC0DD2BE91ECC00F617E5 /* SKRSkeletonAppIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKRSkeletonAppIOSUITests.swift; sourceTree = "<group>"; };
 		C4FBC0DF2BE91ECC00F617E5 /* SKRSkeletonAppIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKRSkeletonAppIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4FBC0F02BE92C0600F617E5 /* CameraDataObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraDataObject.swift; sourceTree = "<group>"; };
+		C4FBC0F22BE9320D00F617E5 /* SLRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLRView.swift; sourceTree = "<group>"; };
+		C4FBC0F42BE9352E00F617E5 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,11 @@
 		C4FBC0C12BE91ECA00F617E5 /* SKRSkeletonAppIOS */ = {
 			isa = PBXGroup;
 			children = (
+				C4FBC0EC2BE9202C00F617E5 /* slrcore */,
 				C4FBC0C22BE91ECA00F617E5 /* SKRSkeletonAppIOSApp.swift */,
 				C4FBC0C42BE91ECA00F617E5 /* ContentView.swift */,
+				C4FBC0F22BE9320D00F617E5 /* SLRView.swift */,
+				C4FBC0F42BE9352E00F617E5 /* CameraView.swift */,
 				C4FBC0C62BE91ECC00F617E5 /* Assets.xcassets */,
 				C4FBC0C82BE91ECC00F617E5 /* Preview Content */,
 			);
@@ -125,6 +136,23 @@
 				C4FBC0DF2BE91ECC00F617E5 /* SKRSkeletonAppIOSUITestsLaunchTests.swift */,
 			);
 			path = SKRSkeletonAppIOSUITests;
+			sourceTree = "<group>";
+		};
+		C4FBC0EC2BE9202C00F617E5 /* slrcore */ = {
+			isa = PBXGroup;
+			children = (
+				C4FBC0ED2BE92B3600F617E5 /* Camera */,
+			);
+			path = slrcore;
+			sourceTree = "<group>";
+		};
+		C4FBC0ED2BE92B3600F617E5 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				C4FBC0F02BE92C0600F617E5 /* CameraDataObject.swift */,
+				C47D0AB12BED501A00DF256D /* RawSignData.swift */,
+			);
+			path = Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4FBC0F12BE92C0600F617E5 /* CameraDataObject.swift in Sources */,
+				C47D0AB22BED501A00DF256D /* RawSignData.swift in Sources */,
 				C4FBC0C52BE91ECA00F617E5 /* ContentView.swift in Sources */,
+				C4FBC0F52BE9352E00F617E5 /* CameraView.swift in Sources */,
+				C4FBC0F32BE9320D00F617E5 /* SLRView.swift in Sources */,
 				C4FBC0C32BE91ECA00F617E5 /* SKRSkeletonAppIOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,8 +454,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SKRSkeletonAppIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = JJSFWZ3XQ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to capture photos and videos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,8 +484,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SKRSkeletonAppIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = JJSFWZ3XQ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to capture photos and videos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
